@@ -20,7 +20,7 @@ Then add the dependency:
 
 ```kotlin
 dependencies {
-    implementation("com.github.umirtech:AdsManager:v1.0.0")
+    implementation("com.github.umirtech:AdsManager:1.0.0")
 }
 ```
 
