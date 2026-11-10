@@ -1,0 +1,24 @@
+[versions]
+agp = "9.4.1"
+kotlin = "2.4.21"
+junit = "4.13.2"
+composeBom = "2026.09.00"
+lifecycleRuntimeKtx = "2.11.0"
+coroutinesAndroid = "1.11.0"
+playServicesAds = "25.5.0"
+umpVersion = "4.0.0"
+
+[libraries]
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-compose-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-lifecycle-runtime-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "lifecycleRuntimeKtx" }
+kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutinesAndroid" }
+play-services-ads = { group = "com.google.android.gms", name = "play-services-ads", version.ref = "playServicesAds" }
+ump-user-messaging-platform = { group = "com.google.android.ump", name = "user-messaging-platform", version.ref = "umpVersion" }
+
+[plugins]
+android-library = { id = "com.android.library", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }

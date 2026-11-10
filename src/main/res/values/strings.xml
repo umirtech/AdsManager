@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="adsmanager_badge" translatable="false">Ad</string>
+    <string name="adsmanager_fallback_headline">Sponsored</string>
+    <string name="adsmanager_fallback_cta">Open</string>
+</resources>
